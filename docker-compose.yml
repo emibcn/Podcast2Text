@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+
+  podcast2text:
+    container_name: podcast2text
+    image: node:8-slim
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+      - GOOGLE_APPLICATION_CREDENTIALS=/home/node/${GOOGLE_APPLICATION_CREDENTIALS}
+    volumes:
+      - ./app:/home/node/app:ro
+      - ./credentials/${GOOGLE_APPLICATION_CREDENTIALS}:/home/node/${GOOGLE_APPLICATION_CREDENTIALS}:ro
+      - ./flac:/flac:ro
+    entrypoint: "node src/index.js"
+
+  ffmpeg:
+    container_name: ffmpeg
+    image: opencoconut/ffmpeg:3.0.2
+    volumes:
+      - ./flac:/tmp/ffmpeg/flac:rw

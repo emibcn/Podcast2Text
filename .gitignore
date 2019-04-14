@@ -1,0 +1,6 @@
+.env
+app/node_modules
+flac/*
+credentials/*
+.*.swp
+.*.swo
