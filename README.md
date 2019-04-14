@@ -11,7 +11,7 @@ cd Podcast2Text
 ```
 1. Create local directories:
 ```shell
-make flac credentials
+mkdir flac credentials
 ```
 1. Create GCP credentials for consuming Speech2Text service at [GCP IAM](https://console.cloud.google.com/iam-admin/iam) with -at least- `Service Usage Consumer` permission.
 1. Copy credentials file to `./credentials` directory
