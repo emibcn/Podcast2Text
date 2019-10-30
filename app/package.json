@@ -1,14 +1,14 @@
 {
   "name": "Podcast2Text",
-  "version": "1.0.0",
-  "description": "Speech to text recognition for podcasts",
+  "version": "1.0.1",
+  "description": "Speech to text recognition for small podcasts",
   "main": "src/index.js",
-  "scripts":{
-      "transcript":"node src/index.js"
+  "scripts": {
+    "transcript": "node src/index.js"
   },
   "author": "https://github.com/emibcn/",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@google-cloud/speech": "^2.3.1"
+    "@google-cloud/speech": "^3.3.2"
   }
 }
