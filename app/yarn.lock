@@ -386,6 +386,11 @@ lodash.has@^4.5.2:
   resolved "https://registry.yarnpkg.com/lodash.has/-/lodash.has-4.5.2.tgz#d19f4dc1095058cccbe2b0cdf4ee0fe4aa37c862"
   integrity sha1-0Z9NwQlQWMzL4rDN9O4P5Ko3yGI=
 
+lodash@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.7.0.tgz#b8088876bdc290ca1f34f90350f7b5cb71810c05"
+  integrity sha1-uAiIdr3CkMofNPkDUPe1y3GBDAU=
+
 long@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"

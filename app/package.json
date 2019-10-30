@@ -10,5 +10,8 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@google-cloud/speech": "^3.3.2"
+  },
+  "resolutions": {
+    "**/lodash": "4.7.0"
   }
 }
