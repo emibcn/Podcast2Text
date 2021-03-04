@@ -9,7 +9,7 @@
   "author": "https://github.com/emibcn/",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@google-cloud/speech": "^3.3.2"
+    "@google-cloud/speech": "^4.2.0"
   },
   "resolutions": {
     "**/lodash": "4.17.13"
