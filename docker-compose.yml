@@ -11,7 +11,7 @@ services:
       - NODE_ENV=development
       - GOOGLE_APPLICATION_CREDENTIALS=/home/node/${GOOGLE_APPLICATION_CREDENTIALS}
     volumes:
-      - ./app:/home/node/app:ro
+      - ./app:/home/node/app:rw
       - ./credentials/${GOOGLE_APPLICATION_CREDENTIALS}:/home/node/${GOOGLE_APPLICATION_CREDENTIALS}:ro
       - ./flac:/flac:ro
     entrypoint: "node src/index.js"
