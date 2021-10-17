@@ -33,8 +33,8 @@ async function main (filename) {
     metadata: recognitionMetadata
   }
   const request = {
-    audio: audio,
-    config: config
+    audio,
+    config
   }
 
   // Detects speech in the audio file
