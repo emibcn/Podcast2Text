@@ -1,3 +1,5 @@
+[![DeepSource](https://deepsource.io/gh/emibcn/Podcast2Text.svg/?label=active+issues&show_trend=true&token=VHGd3A-A6IGGuJtVXH7UAgFN)](https://deepsource.io/gh/emibcn/Podcast2Text/?ref=repository-badge)
+
 Proof of Concept for transcoding podcasts into text using GCP Speech2Text service, following its [NODE JS tutorial](https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries).
 
 # Installation
