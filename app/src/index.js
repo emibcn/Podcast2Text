@@ -65,7 +65,7 @@ if (args.length < 1) {
   )
   process.exit(1)
 }
-const filename = args[0]
+const [filename] = args
 
 // Test file exists
 try {
