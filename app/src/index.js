@@ -1,11 +1,12 @@
 'use strict'
 
+// Used to read file contents previous to send it to Google API
 const fs = require('fs')
 
-async function main (filename) {
-  // Imports the Google Cloud client library
-  const speech = require('@google-cloud/speech')
+// Imports the Google Cloud client library
+const speech = require('@google-cloud/speech')
 
+async function main (filename) {
   // Creates a client
   const client = new speech.SpeechClient()
 
