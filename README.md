@@ -29,7 +29,7 @@ mkdir flac credentials
 There is a script helper to transcode any audio file into text. It's syntax is:
 
 ```shell
-./transcode <FILEPATH> [START]
+./transcode.sh <FILEPATH> [START]
 ```
 
 - `FILEPATH`: Path (relative or absolute) to podcast audio file
